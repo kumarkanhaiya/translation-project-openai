@@ -1,0 +1,17 @@
+# OpenAI Translation Project Dependencies
+# Minimal, focused dependencies for OpenAI-powered translation
+
+# Core dependencies
+openai>=1.7.1
+python-dotenv>=1.0.0
+
+# Optional: Enhanced functionality
+pydantic>=2.4.0          # For data validation
+click>=8.0.0             # For CLI interface
+rich>=13.0.0             # For beautiful console output
+typer>=0.9.0             # For modern CLI development
+
+# Development dependencies (optional)
+pytest>=7.0.0            # For testing
+black>=23.0.0            # For code formatting
+flake8>=6.0.0            # For linting
